@@ -3,11 +3,13 @@ import ResetCss from "./componente/ResetCss";
 import Header from "./componente/header";
 import Receitas from "./componente/Receitas";
 
+import tags from "./tags.json";
+
 import receitinhas from "./receitinhas.json";
 import { useState } from "react";
 
 
-const BgGeralGradiente = styled.body`
+const BgGeralGradiente = styled.div`
   width: 100%;
   padding: 64px 0;
   
@@ -21,13 +23,15 @@ const BgGeralGradiente = styled.body`
 
 
 function App() {
+
+  const [asTags, setAsTags] = useState(tags);
   const [asReceitas, setAsReceitas] = useState(receitinhas);
   return (
     <>
       <ResetCss />
       <Header />
       <BgGeralGradiente>
-        <Receitas receitinhas={asReceitas}/>
+        <Receitas receitinhas={asReceitas} tags={asTags}/>
       </BgGeralGradiente>
     </>
   );

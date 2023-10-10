@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import AsReceitas from "./AsReceitas";
+import Seach from "../Seach";
+import Tags from "../Tags";
 
 const ConteinerReceitas = styled.main`
   width: 1336px;
@@ -23,7 +25,7 @@ const GaleriaReceitas = styled.div`
 `
 
 const PesquisaConteiner = styled.aside`
-  flex-grow: 1;
+  width: 319px;
 
 `
 
@@ -39,7 +41,7 @@ const Titulos = styled.h2`
   border-top: 6px solid #869a81;
 `;
 
-const Receitas = ({receitinhas = []}) => {
+const Receitas = ({receitinhas = [], tags}) => {
   return (
     <ConteinerReceitas>
       <ReceitasConteiner>
@@ -55,6 +57,8 @@ const Receitas = ({receitinhas = []}) => {
       </ReceitasConteiner>
       <PesquisaConteiner>
         <Titulos>Pesquisar</Titulos>
+        <Seach/>
+        <Tags tags={tags}/>
       </PesquisaConteiner>
     </ConteinerReceitas>
   );
