@@ -7,7 +7,7 @@ const Banner = styled.header`
   align-items: center;
   justify-content: center;
 
-  background: linear-gradient(180deg, #606c5d 0%, rgba(96, 108, 93, 0.5) 100%);
+  background: linear-gradient(180deg, #606c5d 99%, rgba(96, 108, 93, 0.5) 100%);
 `;
 
 const Imagem = styled.img`

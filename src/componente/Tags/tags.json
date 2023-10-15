@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "nome": "Almoco",
+        "tag": 1
+    },
+    {
+        "id": 1,
+        "nome": "Paes",
+        "tag": 2
+    },
+    {
+        "id": 2,
+        "nome": "Bolos",
+        "tag": 3
+    },
+    {
+        "id": 3,
+        "nome": "Lanches",
+        "tag": 4
+    },
+    {
+        "id": 4,
+        "nome": "Todos"
+    }
+]

@@ -11,7 +11,8 @@
     ],
     "tutorial": "Em uma vásilia, bata os ovos e tempere com o cheiro-verde, sal e pimenta a gosto. Em uma frigideira, aqueça um fio de azeite. Despeje o ovo batido, deixando dourar dos dois lados. Desligue o fogo e na frigideira ainda, passe o requeijão e coloque o queijo, ponha uma tampa, e deixe por uns 2 min até o queijo derreter",
     "tag": "lanches",
-    "id": "1"
+    "id": "0",
+    "tagId": 4
   },
   {
     "nome": "Pizza de Frigideira",
@@ -29,7 +30,8 @@
     ],
     "tutorial": "Em uma vasília, bata os ovos e coloque as 3 colheres de farelo de aveia, tempere com o cheiro-verde, sal e pimenta a gosto. Em uma frigideira, aqueça um fio de azeite. Despeje a vasília, deixando dourar um lado, vire a massa, coloque a massa de tomate, queijo, presunto e o tomate. Desligue o fogo e na frigideira ainda, ponha uma tampa, e deixe por uns 2 min até o queijo derreter",
     "tag": "lanches",
-    "id": "2"
+    "id": "1",
+    "tagId": 4 
   },
   {
     "nome": "Salada de macarrão com atum",
@@ -48,7 +50,8 @@
       "Junte o macarrão e misture bem. Leve à geladeira por pelo menos 2 horas antes de servir."
     ],
     "tag": "almoco",
-    "id": "3"
+    "id": "2",
+    "tagId": 1
   },
   {
     "nome": "Sanduíche natural de frango",
@@ -68,7 +71,8 @@
       "Sirva em seguida ou embrulhe em papel alumínio e leve à geladeira até a hora de consumir."
     ],
     "tag": "lanches",
-    "id": "4"
+    "id": "4",
+    "tagId": 4
   },
   {
     "nome": "Pão caseiro simples",
@@ -90,7 +94,8 @@
       "Retire do forno e deixe esfriar sobre uma grade."
     ],
     "tag": "paes",
-    "id": "5"
+    "id": "5",
+    "tagId": 2
   },
   {
     "nome": "Bolo simples sem leite",
@@ -111,7 +116,8 @@
       "Retire do forno e deixe esfriar sobre uma grade."
     ],
     "tag": "bolos",
-    "id": "6"
+    "id": "6",
+    "tagId": 3
   },
   {
     "nome": "Arroz com linguiça e queijo",
@@ -132,7 +138,8 @@
       "Sirva em seguida."
     ],
     "tag": "almoco",
-    "id": "7"
+    "id": "7",
+    "tagId": 1
   },
   {
     "nome": "Torta de liquidificador com presunto e queijo",
@@ -155,7 +162,8 @@
       "Retire do forno e deixe amornar antes de cortar."
     ],
     "tag": "almoco",
-    "id": "8"
+    "id": "8",
+    "tagId": 1
   },
   {
     "nome": "Pão de queijo fácil",
@@ -177,7 +185,8 @@
       "Retire do forno e sirva em seguida ou guarde em um recipiente fechado."
     ],
     "tag": "paes",
-    "id": "9"
+    "id": "9",
+    "tagId": 2
   },
   {
     "nome": "Panqueca de banana",
@@ -195,7 +204,8 @@
       "Repita o processo com o restante da massa. Sirva as panquecas com mel, frutas ou o que preferir."
     ],
     "tag": "lanches",
-    "id": "10"
+    "id": "10",
+    "tagId": 4
   },
   {
     "nome": "Bolo de cenoura com cobertura de chocolate",
@@ -221,6 +231,7 @@
       "Espalhe a cobertura sobre o bolo e deixe endurecer."
     ],
     "tag": "bolos",
-    "id": "11"
+    "id": "11",
+    "tagId": 3
   }
 ]

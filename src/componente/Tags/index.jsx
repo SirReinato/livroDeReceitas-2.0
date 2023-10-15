@@ -1,6 +1,5 @@
-import { useState } from "react";
 import styled from "styled-components";
-import TagsCard from "./TagsCard";
+import tags from "./tags.json";
 
 
 const TagsConteiner = styled.div`
@@ -12,12 +11,37 @@ const TagsConteiner = styled.div`
   margin-top: 32px;
 `;
 
-const Tags = ({tags = []}) => {
+const TagsCardCard = styled.button`
+  color: #293725;
+  font-family: Koh Santepheap;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+
+  display: flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 10px;
+  border: 2px solid #293725;
+  background: #869a81;
+`;
+
+const Tags = ({setTag}) => {
   return (
     <TagsConteiner>
         {tags.map(tag => {
             return (
-                <TagsCard key={tag.id} tags={tag} />
+                <TagsCardCard 
+                  key={tag.id}
+                  onClick={() => setTag(tag.tag)}
+                >
+                  {tag.nome}
+                </TagsCardCard>
             )
         })}
     </TagsConteiner>

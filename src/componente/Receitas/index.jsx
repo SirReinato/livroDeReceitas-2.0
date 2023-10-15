@@ -41,7 +41,7 @@ const Titulos = styled.h2`
   border-top: 6px solid #869a81;
 `;
 
-const Receitas = ({receitinhas = [], tags}) => {
+const Receitas = ({receitinhas = [], setTag}) => {
   return (
     <ConteinerReceitas>
       <ReceitasConteiner>
@@ -58,7 +58,7 @@ const Receitas = ({receitinhas = [], tags}) => {
       <PesquisaConteiner>
         <Titulos>Pesquisar</Titulos>
         <Seach/>
-        <Tags tags={tags}/>
+        <Tags setTag={setTag}/>
       </PesquisaConteiner>
     </ConteinerReceitas>
   );
