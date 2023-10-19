@@ -6,6 +6,7 @@ import Receitas from "./componente/Receitas";
 import receitinhas from "./receitinhas.json";
 
 import { useEffect, useState } from "react";
+import Info from "./componente/Info";
 
 const BgGeralGradiente = styled.div`
   width: 100%;
@@ -42,6 +43,7 @@ function App() {
           receitinhas={asReceitas} 
           setTag={setTag} 
         />
+        <Info/>
       </BgGeralGradiente>
     </>
   );
