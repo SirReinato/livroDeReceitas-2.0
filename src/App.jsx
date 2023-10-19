@@ -7,10 +7,11 @@ import receitinhas from "./receitinhas.json";
 
 import { useEffect, useState } from "react";
 import Info from "./componente/Info";
+import Footer from "./componente/Footer";
 
-const BgGeralGradiente = styled.div`
+const BgGeralGradiente = styled.main`
   width: 100%;
-  padding: 64px 0;
+  padding-top: 64px;
 
   background: linear-gradient(
     163deg,
@@ -44,6 +45,7 @@ function App() {
           setTag={setTag} 
         />
         <Info/>
+        <Footer/>
       </BgGeralGradiente>
     </>
   );
