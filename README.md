@@ -1,8 +1,15 @@
-# React + Vite
+# Livro de Receitas
+> Esse projeto tem por finalidade ser um blog de receitas, onde eu colocarei receitas simples e fáceis de se fazer, qualquer vai poder aproveitar.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> E ao mesmo tempo vou treinando meus aprendizados sobre `react.js`
 
-Currently, two official plugins are available:
+### Inspiração do projeto
+Após finalizar um curso pela Alura, decidir criar o meu projeto, por sorte, eu já tinha criado esse modelo no figma antes, e esperei pela melhor oportunidade para codifica-lo.
+Basicamente consiste em algumas receitas que eu já fiz em algum momento da minha vida, e outras são do momento em que eu optei por comer comidas um pouco mais saudaveis. Então é isso.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Fotos
+
+### Framework 
+Usei o `react.js` para desenvolver com algumas bibliotecas interessantes, como:
+1. `styled-components` para estilizar.
+2. `react-router-dom` para criar as rotas entre páginas
