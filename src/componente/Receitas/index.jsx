@@ -4,14 +4,15 @@ import Seach from "../Seach";
 import Tags from "../Tags";
 
 const ConteinerReceitas = styled.main`
-  width: 1336px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 32px;
   display: flex;
   gap: 20px;
 `;
 
 const ReceitasConteiner = styled.section`
-  width: 997px;
+  width: 900px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -22,7 +23,7 @@ const GaleriaReceitas = styled.div`
     justify-content: start;
     flex-wrap: wrap;
     column-gap: 16px;
-    row-gap: 32px
+    row-gap: 32px;
 `
 
 const PesquisaConteiner = styled.aside`
@@ -56,6 +57,7 @@ const Receitas = ({ receitinhas = [], setTag }) => {
 
         </GaleriaReceitas>
       </ReceitasConteiner>
+
       <PesquisaConteiner>
         <Titulos>Pesquisar</Titulos>
         <Seach />
