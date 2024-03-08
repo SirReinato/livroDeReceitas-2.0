@@ -1,7 +1,7 @@
 [
   {
     "nome": "Omelete",
-    "imagem": "/public/receitas/omelete.png",
+    "imagem": "https://i.pinimg.com/564x/e0/ef/5d/e0ef5d81588273f193d58ec8fc4bc4b4.jpg",
     "Ingredientes": [
       "2 ovos",
       "queijo",
@@ -16,7 +16,7 @@
   },
   {
     "nome": "Pizza de Frigideira",
-    "imagem": "/public/receitas/pizzaDeFrigideira.png",
+    "imagem": "https://i.pinimg.com/736x/d4/18/d2/d418d29a3e809cb10ee7c6487a37afb4.jpg",
     "Ingredientes": [
       "2 ovos",
       "massa de tomate",
@@ -35,7 +35,7 @@
   },
   {
     "nome": "Salada de macarrão com atum",
-    "imagem": "/public/receitas/pizzaDeFrigideira.png",
+    "imagem": "https://i.pinimg.com/564x/55/b4/15/55b4152ca0e517f3973138d3d8cbac46.jpg",
     "Ingredientes": [
       "250 g de macarrão tipo penne",
       "2 latas de atum em água escorrido",
@@ -55,7 +55,7 @@
   },
   {
     "nome": "Sanduíche natural de frango",
-    "imagem": "/public/receitas/pizzaDeFrigideira.png",
+    "imagem": "https://i.pinimg.com/564x/57/7e/ce/577ececac9b91930aa85f0c2afd73a20.jpg",
     "Ingredientes": [
       "2 xícaras de frango cozido e desfiado",
       "1/4 de xícara de cenoura ralada",
@@ -76,7 +76,7 @@
   },
   {
     "nome": "Pão caseiro simples",
-    "imagem": "/public/receitas/pizzaDeFrigideira.png",
+    "imagem": "https://i.pinimg.com/564x/10/28/7d/10287dc8079c65fc8c33e8e60721d122.jpg",
     "Ingredientes": [
       "1 kg de farinha de trigo",
       "45 g de fermento biológico fresco",
@@ -99,7 +99,7 @@
   },
   {
     "nome": "Bolo simples sem leite",
-    "imagem": "/public/receitas/pizzaDeFrigideira.png",
+    "imagem": "https://i.pinimg.com/736x/2f/70/c0/2f70c03e9108d9b8d75bcc4fadac7e2c.jpg",
     "Ingredientes": [
       "3 ovos",
       "1 xícara de açúcar",
@@ -121,7 +121,7 @@
   },
   {
     "nome": "Arroz com linguiça e queijo",
-    "imagem": "/public/receitas/pizzaDeFrigideira.png",
+    "imagem": "https://i.pinimg.com/564x/64/19/2d/64192dd734fd023754a0b5e0b305d6a4.jpg",
     "Ingredientes": [
       "2 colheres de sopa de óleo",
       "300 g de linguiça calabresa em rodelas",
@@ -143,7 +143,7 @@
   },
   {
     "nome": "Torta de liquidificador com presunto e queijo",
-    "imagem": "/public/receitas/pizzaDeFrigideira.png",
+    "imagem": "https://i.pinimg.com/564x/2a/14/5f/2a145f860d889b2ebec751701a69f8a0.jpg",
     "Ingredientes": [
       "3 ovos",
       "1/4 de xícara de óleo",
@@ -167,7 +167,7 @@
   },
   {
     "nome": "Pão de queijo fácil",
-    "imagem": "/public/receitas/pizzaDeFrigideira.png",
+    "imagem": "https://i.pinimg.com/564x/a2/36/9e/a2369efbcbd0a30f833390e5bbf82f69.jpg",
     "Ingredientes": [
       "3 xícaras de polvilho doce",
       "3 xícaras de queijo meia cura ralado",
@@ -190,7 +190,7 @@
   },
   {
     "nome": "Panqueca de banana",
-    "imagem": "/public/receitas/pizzaDeFrigideira.png",
+    "imagem": "https://i.pinimg.com/564x/26/3f/74/263f7420108aa9ff542e8ab09999e6cd.jpg",
     "Ingredientes": [
       "1 banana madura amassada",
       "2 ovos",
@@ -209,7 +209,7 @@
   },
   {
     "nome": "Bolo de cenoura com cobertura de chocolate",
-    "imagem": "/public/receitas/pizzaDeFrigideira.png",
+    "imagem": "https://i.pinimg.com/564x/7b/fa/dd/7bfadd9a70223daa8bbd7ef71376b93f.jpg",
     "Ingredientes": [
       "3 cenouras médias picadas",
       "4 ovos",

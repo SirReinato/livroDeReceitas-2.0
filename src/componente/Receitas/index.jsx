@@ -19,9 +19,10 @@ const ReceitasConteiner = styled.section`
 
 const GaleriaReceitas = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     flex-wrap: wrap;
-    row-gap: 64px;
+    column-gap: 16px;
+    row-gap: 32px
 `
 
 const PesquisaConteiner = styled.aside`
@@ -39,26 +40,26 @@ const Titulos = styled.h2`
   line-height: normal;
 
   border-top: 6px solid #869a81;
-`;
+`
 
-const Receitas = ({receitinhas = [], setTag}) => {
+const Receitas = ({ receitinhas = [], setTag }) => {
   return (
     <ConteinerReceitas>
       <ReceitasConteiner>
         <Titulos>Melhores Receitas</Titulos>
         <GaleriaReceitas>
           {receitinhas.map(receitas => {
-            return(
-              <AsReceitas key={receitas.id} receitinhas={receitas}/>
+            return (
+              <AsReceitas key={receitas.id} receitinhas={receitas} />
             )
           })}
-            
+
         </GaleriaReceitas>
       </ReceitasConteiner>
       <PesquisaConteiner>
         <Titulos>Pesquisar</Titulos>
-        <Seach/>
-        <Tags setTag={setTag}/>
+        <Seach />
+        <Tags setTag={setTag} />
       </PesquisaConteiner>
     </ConteinerReceitas>
   );

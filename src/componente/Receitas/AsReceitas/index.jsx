@@ -12,6 +12,8 @@ const Cards = styled.figure`
   img {
     width: 100%;
     height: 296.09px;
+    border-radius: 10px 10px 0 0 ;
+
     background-color: #2b3a27;
   }
 `;
