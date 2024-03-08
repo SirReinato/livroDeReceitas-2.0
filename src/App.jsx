@@ -8,6 +8,7 @@ import receitinhas from "./receitinhas.json";
 import { useEffect, useState } from "react";
 import Info from "./componente/Info";
 import Footer from "./componente/Footer";
+import { ReceitaProvider } from "./context/ReceitaContext";
 
 const BgGeralGradiente = styled.main`
   width: 100%;
@@ -36,7 +37,7 @@ function App() {
   }, [tag]);
 
   return (
-    <>
+    <ReceitaProvider>
       <ResetCss />
       <Header />
       <BgGeralGradiente>
@@ -47,7 +48,7 @@ function App() {
         <Info/>
         <Footer/>
       </BgGeralGradiente>
-    </>
+    </ReceitaProvider>
   );
 }
 

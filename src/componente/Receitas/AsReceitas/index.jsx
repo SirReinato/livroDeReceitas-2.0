@@ -1,5 +1,8 @@
 import styled from "styled-components";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { useReceitasContext } from "../../../hooks/useReceitasContext";
+import { useContext } from "react";
+import { ReceitaContext } from "../../../context/ReceitaContext";
 
 const Cards = styled.figure`
   display: flex;
@@ -49,11 +52,17 @@ const FigcaptionStilizado = styled.figcaption`
 `;
 
 const AsReceitas = ({ receitinhas }) => {
+  const {setReceita} = useContext(ReceitaContext)
   return (
     <Cards>
       <img src={receitinhas.imagem} alt={receitinhas.nome} />
 
-      <FigcaptionStilizado>
+      <FigcaptionStilizado 
+          data-bs-toggle="offcanvas" 
+          data-bs-target="#offcanvasRight" 
+          aria-controls="offcanvasRight"
+          onClick={() => setReceita(receitinhas)}
+        >
         <h3>{receitinhas.nome}</h3>
         <h4>
           Dificuldade: <AiFillStar /> <AiOutlineStar /> <AiOutlineStar />{" "}

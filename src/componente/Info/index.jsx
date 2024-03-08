@@ -5,6 +5,7 @@ const InfoStyles = styled.section`
   width: 100%;
   padding: 60px 0;
   margin-top: 64px;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
 
@@ -14,18 +15,37 @@ const InfoStyles = styled.section`
 const ConteinerMensagemLivro = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 615px;
+  width: 100%;
   height: 535px;
   padding-top: 20px;
   border-top: 6px solid rgba(231, 216, 185, 0.86);
   flex-shrink: 0;
   background: url("/livro.png") no-repeat center;
+
+  @media (max-width: 431px){
+    height: 300px;
+
+    background: url("/livro-mbile.png") no-repeat center;
+  }
+
   div {
     width: 217px;
     height: 184px;
     padding: 64px 42px 0 45px;
     text-align: center;
     flex-shrink: 0;
+    box-sizing: border-box;
+
+    @media (max-width: 431px){
+    max-width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 32px;
+
+  }
+
     h3 {
       color: #293725;
       font-family: Jacques Francois;
@@ -35,6 +55,14 @@ const ConteinerMensagemLivro = styled.div`
       line-height: 40px; /* 222.222% */
       text-transform: capitalize;
       margin-bottom: 32px;
+
+      @media (max-width: 431px){
+        font-size: 16px;
+        margin-right: 40px;
+        width: 150px;
+
+
+      }
     }
     p {
       color: #293725;
@@ -44,6 +72,12 @@ const ConteinerMensagemLivro = styled.div`
       font-weight: 700;
       line-height: 24px; /* 200% */
       text-transform: capitalize;
+
+      @media (max-width: 431px){
+        font-size: 8px;
+        width: 140px;
+
+      }
     }
   }
 `;

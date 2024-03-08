@@ -2,6 +2,7 @@ import styled from "styled-components";
 import AsReceitas from "./AsReceitas";
 import Seach from "../Seach";
 import Tags from "../Tags";
+import OffCanvas from "../OffCanvas/OffCanvas";
 
 const ConteinerReceitas = styled.main`
   width: 100%;
@@ -11,6 +12,11 @@ const ConteinerReceitas = styled.main`
   display: flex;
 
   gap: 20px;
+  @media (max-width: 431px){
+    flex-direction: column-reverse;
+
+
+  }
 `;
 
 const ReceitasConteiner = styled.section`
@@ -18,6 +24,10 @@ const ReceitasConteiner = styled.section`
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  @media (max-width: 431px){
+    width: 100%;
+  }
 `;
 
 const GaleriaReceitas = styled.div`
@@ -26,6 +36,9 @@ const GaleriaReceitas = styled.div`
     flex-wrap: wrap;
     column-gap: 16px;
     row-gap: 32px;
+    @media (max-width: 431px){
+    justify-content: center;
+  }
 `
 
 const PesquisaConteiner = styled.aside`
@@ -65,6 +78,7 @@ const Receitas = ({ receitinhas = [], setTag }) => {
         <Seach />
         <Tags setTag={setTag} />
       </PesquisaConteiner>
+      <OffCanvas/>
     </ConteinerReceitas>
   );
 };

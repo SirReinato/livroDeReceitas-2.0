@@ -15,6 +15,10 @@ const FooterStylosConteiner = styled.footer`
     #606c5d 85.68%,
     rgba(96, 108, 93, 0.5) 100.19%
   );
+  @media (max-width: 431px){
+    flex-direction: column;
+    gap: 16px;
+  }
 `;
 
 const NovidadesConteiner = styled.div`
@@ -29,6 +33,10 @@ const NovidadesConteiner = styled.div`
     font-weight: 700;
     line-height: normal;
     padding-bottom: 16px;
+  }
+  
+  @media (max-width: 431px){
+    display: none;
   }
 `;
 
