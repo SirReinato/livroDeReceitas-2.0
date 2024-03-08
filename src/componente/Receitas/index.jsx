@@ -7,7 +7,9 @@ const ConteinerReceitas = styled.main`
   width: 100%;
   margin: 0 auto;
   padding: 0 32px;
+  box-sizing: border-box;
   display: flex;
+
   gap: 20px;
 `;
 
