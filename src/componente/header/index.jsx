@@ -19,7 +19,7 @@ const Imagem = styled.img`
 const Header = () => {
   return (
     <Banner>
-      <Imagem src="/public/header-emblema.png" alt="logo do nosso site"/>
+      <Imagem src="/header-emblema.png" alt="logo do nosso site"/>
     </Banner>
   );
 };

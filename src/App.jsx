@@ -18,7 +18,7 @@ const BgGeralGradiente = styled.main`
     #f7e6c4 0%,
     rgba(247, 230, 196, 0.8) 66.12%
   );
-`;
+`
 
 function App() {
   const [asReceitas, setAsReceitas] = useState(receitinhas);

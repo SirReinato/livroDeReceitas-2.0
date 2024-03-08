@@ -19,7 +19,7 @@ const ConteinerMensagemLivro = styled.div`
   padding-top: 20px;
   border-top: 6px solid rgba(231, 216, 185, 0.86);
   flex-shrink: 0;
-  background: url("/../public/livro.png") no-repeat center;
+  background: url("/livro.png") no-repeat center;
   div {
     width: 217px;
     height: 184px;
