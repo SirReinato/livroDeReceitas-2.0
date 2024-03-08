@@ -64,12 +64,12 @@ const Footer = () => {
       </NovidadesConteiner>
       <Logo>
         <figcaption>“Livro de Receitas”</figcaption>
-        <img src="/../public/fogão.png" alt="fogão logo do site" />
+        <img src="fogão.png" alt="fogão logo do site" />
       </Logo>
       <RedesSociais>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="/../public/githib.png" alt="logo do github"/> </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="/../public/linkedin.png" alt="logo do linkedin"/> </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="/../public/twitter.png" alt="logo do twitter"/> </a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="githib.png" alt="logo do github"/> </a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="linkedin.png" alt="logo do linkedin"/> </a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="twitter.png" alt="logo do twitter"/> </a>
         
       </RedesSociais>
     </FooterStylosConteiner>
