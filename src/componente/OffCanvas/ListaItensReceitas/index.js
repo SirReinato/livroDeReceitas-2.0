@@ -1,0 +1,1 @@
+export { default as ListaItensReceitas } from './ListaItensReceitas';

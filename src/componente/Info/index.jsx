@@ -17,18 +17,70 @@ const ConteinerMensagemLivro = styled.div`
   justify-content: space-between;
   width: 100%;
   height: 535px;
+  box-sizing: border-box;
   padding-top: 20px;
-  border-top: 6px solid rgba(231, 216, 185, 0.86);
   flex-shrink: 0;
   background: url("/livro.png") no-repeat center;
 
   @media (max-width: 431px){
-    height: 300px;
+    height: 320px;
 
     background: url("/livro-mbile.png") no-repeat center;
   }
 
-  div {
+  .livroReceitas1 {
+    width: 217px;
+    padding: 64px 42px 0 45px;
+    text-align: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+
+    @media (max-width: 431px){
+    width: 160px;
+    height: 200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 32px;
+
+  }
+
+    h3 {
+      color: #293725;
+      font-family: Jacques Francois;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 40px; /* 222.222% */
+      text-transform: capitalize;
+      margin-bottom: 32px;
+
+      @media (max-width: 431px){
+        font-size: 16px;
+        margin-right: 40px;
+        width: 150px;
+
+
+      }
+    }
+    p {
+      color: #293725;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 200% */
+      text-transform: capitalize;
+
+      @media (max-width: 431px){
+        font-size: 8px;
+        width: 140px;
+
+      }
+    }
+  }
+
+  .livroReceitas2{
     width: 217px;
     height: 184px;
     padding: 64px 42px 0 45px;
@@ -37,12 +89,13 @@ const ConteinerMensagemLivro = styled.div`
     box-sizing: border-box;
 
     @media (max-width: 431px){
-    max-width: 300px;
+      width: 160px;
     height: 200px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding: 0px 0px 0px 32px;
+    padding: 0px 64px 0px 0px;
+    margin-right: 32px;
 
   }
 
@@ -86,7 +139,7 @@ const Info = () => {
   return (
     <InfoStyles>
       <ConteinerMensagemLivro>
-        <div>
+        <div className="livroReceitas1">
           <h3>RECEITAS FÁCEIS</h3>
           <p>
             Você gosta de cozinhar, mas não tem muito tempo ou paciência para
@@ -95,7 +148,7 @@ const Info = () => {
             lugar certo!
           </p>
         </div>
-        <div>
+        <div className="livroReceitas2">
           <p>
             {" "}
             Neste site, você vai encontrar receitas fáceis e rápidas que levam
