@@ -14,21 +14,25 @@ const Banner = styled.header`
   }
 `;
 
-const Imagem = styled.img`
+const Imagem = styled.div`
   width: 667px;
   height: 365.548px;
   flex-shrink: 0;
+  background: url('/header-emblema.png');
+
 
   @media (max-width: 431px){
     width: 350px;
     height: 192px;
+    background: url('/header-mobile.png');
+
   }
 `;
 
 const Header = () => {
   return (
     <Banner>
-      <Imagem src="/header-mobile.png" alt="logo do nosso site" />
+      <Imagem ></Imagem>
     </Banner>
   );
 };
