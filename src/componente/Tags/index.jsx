@@ -8,8 +8,8 @@ const TagsConteiner = styled.div`
   flex-wrap: wrap;
   gap: 16px;
   margin-top: 32px;
-  @media (max-width: 430px){
-    justify-content: start;
+  @media (max-width: 693px){
+    justify-content: center;
     margin-top: 16px;
   }
 `;
@@ -31,7 +31,7 @@ const TagsCardCard = styled.button`
   border-radius: 10px;
   border: 2px solid #293725;
   background: #869a81;
-  @media (max-width: 430px){
+  @media (max-width: 693px){
     font-size: 12px;
   }
 `;

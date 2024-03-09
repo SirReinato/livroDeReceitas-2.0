@@ -15,7 +15,7 @@ const FooterStylosConteiner = styled.footer`
     #606c5d 85.68%,
     rgba(96, 108, 93, 0.5) 100.19%
   );
-  @media (max-width: 431px){
+  @media (max-width: 693px){
     flex-direction: column;
     gap: 16px;
   }
@@ -35,7 +35,7 @@ const NovidadesConteiner = styled.div`
     padding-bottom: 16px;
   }
   
-  @media (max-width: 431px){
+  @media (max-width: 693px){
     display: none;
   }
 `;
@@ -63,24 +63,46 @@ const RedesSociais = styled.figure`
   gap: 20px;
 `;
 
+const BySirReinato = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+
+  background-color: #F1C376;
+  .bySirReinato{
+    font-size: 16px;
+    letter-spacing: .1em;
+    font-weight: bold;
+  }
+`
+
 const Footer = () => {
   return (
-    <FooterStylosConteiner>
-      <NovidadesConteiner>
-        <h4>Novidades</h4>
-        <InputNovidades />
-      </NovidadesConteiner>
-      <Logo>
-        <figcaption>“Livro de Receitas”</figcaption>
-        <img src="fogão.png" alt="fogão logo do site" />
-      </Logo>
-      <RedesSociais>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="githib.png" alt="logo do github"/> </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="linkedin.png" alt="logo do linkedin"/> </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="twitter.png" alt="logo do twitter"/> </a>
-        
-      </RedesSociais>
-    </FooterStylosConteiner>
+    <>
+
+      <FooterStylosConteiner>
+        <NovidadesConteiner>
+          <h4>Novidades</h4>
+          <InputNovidades />
+        </NovidadesConteiner>
+        <Logo>
+          <figcaption>“Livro de Receitas”</figcaption>
+          <img src="fogão.png" alt="fogão logo do site" />
+        </Logo>
+        <RedesSociais>
+          <a href="https://github.com/SirReinato" target="_blank" rel="noopener noreferrer"> <img src="githib.png" alt="logo do github" /> </a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="linkedin.png" alt="logo do linkedin" /> </a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="twitter.png" alt="logo do twitter" /> </a>
+
+        </RedesSociais>
+
+      </FooterStylosConteiner>
+      <BySirReinato>
+        <p className="bySirReinato">@By_SirReinato</p>
+      </BySirReinato>
+    </>
   );
 };
 

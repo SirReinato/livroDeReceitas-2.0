@@ -12,7 +12,7 @@ const ConteinerReceitas = styled.main`
   display: flex;
 
   gap: 20px;
-  @media (max-width: 431px){
+  @media (max-width: 693px){
     flex-direction: column-reverse;
     padding: 0 32px;
 
@@ -26,7 +26,7 @@ const ReceitasConteiner = styled.section`
   flex-direction: column;
   gap: 20px;
 
-  @media (max-width: 431px){
+  @media (max-width: 693px){
     width: 100%;
   }
 `;
@@ -37,16 +37,16 @@ const GaleriaReceitas = styled.div`
     flex-wrap: wrap;
     column-gap: 16px;
     row-gap: 32px;
-    @media (max-width: 431px){
+    @media (max-width: 693px){
     justify-content: center;
   }
 `
 
 const PesquisaConteiner = styled.aside`
   width: 100%;
-  width: 319px;
-  @media (max-width: 431px){
+  @media (max-width: 693px){
     justify-content: center;
+    align-items: center;
     
   }
 `
@@ -67,7 +67,7 @@ const Titulos = styled.h2`
     display: block;
     border-radius: 10px;
   }
-  @media (max-width: 430px) {
+  @media (max-width: 693px) {
     text-align: center;
     &::before{
       content: '';

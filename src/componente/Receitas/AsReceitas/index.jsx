@@ -14,7 +14,7 @@ const Cards = styled.figure`
 
   @media (max-width: 430px){
     justify-content: start;
-    width: 164px;
+    width: 47%;
 
   }
   img {
@@ -32,7 +32,7 @@ const Cards = styled.figure`
 
 const FigcaptionStilizado = styled.figcaption`
   width: 300px;
-  padding: 5px 10px;
+  padding: 5px;
   box-sizing: border-box ;
   display: flex;
   flex-direction: column;
