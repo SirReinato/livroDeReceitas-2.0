@@ -6,9 +6,12 @@ const TagsConteiner = styled.div`
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  align-items: flex-start;
   gap: 16px;
   margin-top: 32px;
+  @media (max-width: 430px){
+    justify-content: start;
+    margin-top: 16px;
+  }
 `;
 
 const TagsCardCard = styled.button`
@@ -21,29 +24,31 @@ const TagsCardCard = styled.button`
   cursor: pointer;
 
   display: flex;
-  padding: 5px 10px;
+  padding: 4px 6px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
 
   border-radius: 10px;
   border: 2px solid #293725;
   background: #869a81;
+  @media (max-width: 430px){
+    font-size: 12px;
+  }
 `;
 
-const Tags = ({setTag}) => {
+const Tags = ({ setTag }) => {
   return (
     <TagsConteiner>
-        {tags.map(tag => {
-            return (
-                <TagsCardCard 
-                  key={tag.id}
-                  onClick={() => setTag(tag.tag)}
-                >
-                  {tag.nome}
-                </TagsCardCard>
-            )
-        })}
+      {tags.map(tag => {
+        return (
+          <TagsCardCard
+            key={tag.id}
+            onClick={() => setTag(tag.tag)}
+          >
+            {tag.nome}
+          </TagsCardCard>
+        )
+      })}
     </TagsConteiner>
   )
 };

@@ -14,23 +14,24 @@ const InfoStyles = styled.section`
 
 const ConteinerMensagemLivro = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   height: 535px;
   box-sizing: border-box;
-  padding-top: 20px;
   flex-shrink: 0;
   background: url("/livro.png") no-repeat center;
 
   @media (max-width: 431px){
     height: 320px;
-
+    justify-content: space-between;
+    padding-top: 20px;
     background: url("/livro-mbile.png") no-repeat center;
   }
 
   .livroReceitas1 {
-    width: 217px;
-    padding: 64px 42px 0 45px;
+    width: 220px;
+    padding: 32px 32px 0 0px;
+    margin-right: 60px;
     text-align: center;
     flex-shrink: 0;
     box-sizing: border-box;
@@ -75,6 +76,7 @@ const ConteinerMensagemLivro = styled.div`
       @media (max-width: 431px){
         font-size: 8px;
         width: 140px;
+        margin-top: -16px;
 
       }
     }
@@ -82,8 +84,8 @@ const ConteinerMensagemLivro = styled.div`
 
   .livroReceitas2{
     width: 217px;
-    height: 184px;
-    padding: 64px 42px 0 45px;
+    padding: 32px 12px 0 12px;
+    height: 300px;
     text-align: center;
     flex-shrink: 0;
     box-sizing: border-box;

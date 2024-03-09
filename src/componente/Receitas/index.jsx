@@ -7,13 +7,14 @@ import OffCanvas from "../OffCanvas/OffCanvas";
 const ConteinerReceitas = styled.main`
   width: 100%;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 64px;
   box-sizing: border-box;
   display: flex;
 
   gap: 20px;
   @media (max-width: 431px){
     flex-direction: column-reverse;
+    padding: 0 32px;
 
 
   }
@@ -42,8 +43,12 @@ const GaleriaReceitas = styled.div`
 `
 
 const PesquisaConteiner = styled.aside`
+  width: 100%;
   width: 319px;
-
+  @media (max-width: 431px){
+    justify-content: center;
+    
+  }
 `
 
 const Titulos = styled.h2`
@@ -51,11 +56,28 @@ const Titulos = styled.h2`
   font-family: Koh Santepheap;
   font-size: 32px;
   font-style: normal;
-  width: 80%;
+  width: 100%;
   font-weight: 700;
   line-height: normal;
-
-  border-top: 6px solid #869a81;
+  text-align: start;
+  &::before{
+    content: '';
+    width: 70%;
+    border: 4px solid #869a81;
+    display: block;
+    border-radius: 10px;
+  }
+  @media (max-width: 430px) {
+    text-align: center;
+    &::before{
+      content: '';
+      width: 70%;
+      border: 4px solid #869a81;
+      display: block;
+      margin: 6px auto;
+      border-radius: 10px;
+  }
+  }
 `
 
 const Receitas = ({ receitinhas = [], setTag }) => {
@@ -78,7 +100,7 @@ const Receitas = ({ receitinhas = [], setTag }) => {
         <Seach />
         <Tags setTag={setTag} />
       </PesquisaConteiner>
-      <OffCanvas/>
+      <OffCanvas />
     </ConteinerReceitas>
   );
 };
