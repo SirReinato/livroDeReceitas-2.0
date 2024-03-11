@@ -1,0 +1,239 @@
+{
+  "asReceitas": [
+    {
+      "nome": "Omelete",
+      "imagem": "https://i.pinimg.com/564x/e0/ef/5d/e0ef5d81588273f193d58ec8fc4bc4b4.jpg",
+      "Ingredientes": [
+        "2 ovos",
+        "queijo",
+        "requeijão",
+        "cheiro verde",
+        "sal e pimena a gosto"
+      ],
+      "tutorial": "Em uma vásilia, bata os ovos e tempere com o cheiro-verde, sal e pimenta a gosto. Em uma frigideira, aqueça um fio de azeite. Despeje o ovo batido, deixando dourar dos dois lados. Desligue o fogo e na frigideira ainda, passe o requeijão e coloque o queijo, ponha uma tampa, e deixe por uns 2 min até o queijo derreter",
+      "tag": "lanches",
+      "id": "0",
+      "tagId": 4
+    },
+    {
+      "nome": "Pizza de Frigideira",
+      "imagem": "https://i.pinimg.com/736x/d4/18/d2/d418d29a3e809cb10ee7c6487a37afb4.jpg",
+      "Ingredientes": [
+        "2 ovos",
+        "massa de tomate",
+        "3 colheres de farelo de aveia/farinha de aveia",
+        "queijo",
+        "cheiro verde",
+        "tomate em rodelas",
+        "presunto",
+        "sal e pimena a gosto",
+        "50ml / 3 colheres de sopa de agua."
+      ],
+      "tutorial": "Em uma vasília, bata os ovos e coloque as 3 colheres de farelo de aveia, tempere com o cheiro-verde, sal e pimenta a gosto. Em uma frigideira, aqueça um fio de azeite. Despeje a vasília, deixando dourar um lado, vire a massa, coloque a massa de tomate, queijo, presunto e o tomate. Desligue o fogo e na frigideira ainda, ponha uma tampa, e deixe por uns 2 min até o queijo derreter",
+      "tag": "lanches",
+      "id": "1",
+      "tagId": 4
+    },
+    {
+      "nome": "Salada de macarrão com atum",
+      "imagem": "https://i.pinimg.com/564x/55/b4/15/55b4152ca0e517f3973138d3d8cbac46.jpg",
+      "Ingredientes": [
+        "250 g de macarrão tipo penne",
+        "2 latas de atum em água escorrido",
+        "1/4 de xícara de requeijão",
+        "1/4 de xícara de milho verde",
+        "2 colheres de sopa de salsa picada",
+        "sal e pimena a gosto"
+      ],
+      "tutorial": [
+        "Cozinhe o macarrão em água fervente salgada até ficar al dente. Escorra e reserve.",
+        "Em uma tigela, misture o atum, a maionese, a mostarda, as azeitonas e a salsa. Tempere com sal e pimenta a gosto.",
+        "Junte o macarrão e misture bem. Leve à geladeira por pelo menos 2 horas antes de servir."
+      ],
+      "tag": "almoco",
+      "id": "2",
+      "tagId": 1
+    },
+    {
+      "nome": "Sanduíche natural de frango",
+      "imagem": "https://i.pinimg.com/564x/57/7e/ce/577ececac9b91930aa85f0c2afd73a20.jpg",
+      "Ingredientes": [
+        "2 xícaras de frango cozido e desfiado",
+        "1/4 de xícara de cenoura ralada",
+        "1/4 de xícara de milho verde",
+        "2 colheres de sopa de cebolinha picada",
+        "1/4 de xícara de maionese",
+        "Sal e pimenta a gosto",
+        "8 fatias de pão integral"
+      ],
+      "tutorial": [
+        "Em uma tigela, misture o frango, a cenoura, o milho, a cebolinha e a maionese. Tempere com sal e pimenta a gosto.",
+        "Distribua a mistura sobre 4 fatias de pão. Cubra com as outras 4 fatias e corte ao meio.",
+        "Sirva em seguida ou embrulhe em papel alumínio e leve à geladeira até a hora de consumir."
+      ],
+      "tag": "lanches",
+      "id": "4",
+      "tagId": 4
+    },
+    {
+      "nome": "Pão caseiro simples",
+      "imagem": "https://i.pinimg.com/564x/10/28/7d/10287dc8079c65fc8c33e8e60721d122.jpg",
+      "Ingredientes": [
+        "1 kg de farinha de trigo",
+        "45 g de fermento biológico fresco",
+        "2 colheres de sopa de açúcar",
+        "1 colher de sopa de sal",
+        "1/4 de xícara de óleo",
+        "2 ovos",
+        "Água morna até dar o ponto"
+      ],
+      "tutorial": [
+        "Em uma tigela grande, dissolva o fermento no açúcar. Junte o sal, o óleo, os ovos e metade da farinha. Misture bem com uma colher.",
+        "Aos poucos, adicione o restante da farinha e vá sovando a massa com as mãos até ficar homogênea e desgrudar das mãos. Se necessário, acrescente mais água ou farinha.",
+        "Divida a massa em duas partes iguais e modele os pães. Coloque-os em formas untadas e deixe crescer por cerca de uma hora ou até dobrar de volume.",
+        "Leve ao forno preaquecido a 180°C por cerca de 40 minutos ou até dourar.",
+        "Retire do forno e deixe esfriar sobre uma grade."
+      ],
+      "tag": "paes",
+      "id": "5",
+      "tagId": 2
+    },
+    {
+      "nome": "Bolo simples sem leite",
+      "imagem": "https://i.pinimg.com/736x/2f/70/c0/2f70c03e9108d9b8d75bcc4fadac7e2c.jpg",
+      "Ingredientes": [
+        "3 ovos",
+        "1 xícara de açúcar",
+        "1/2 xícara de óleo",
+        "1 xícara de água",
+        "2 xícaras de farinha de trigo",
+        "1 colher de sopa de fermento em pó"
+      ],
+      "tutorial": [
+        "No liquidificador, bata os ovos, o açúcar, o óleo e a água até ficar homogêneo.",
+        "Transfira para uma tigela e adicione a farinha e o fermento. Misture bem com uma colher.",
+        "Despeje a massa em uma forma untada e enfarinhada.",
+        "Leve ao forno preaquecido a 180°C por cerca de 30 minutos ou até fazer o teste do palito.",
+        "Retire do forno e deixe esfriar sobre uma grade."
+      ],
+      "tag": "bolos",
+      "id": "6",
+      "tagId": 3
+    },
+    {
+      "nome": "Arroz com linguiça e queijo",
+      "imagem": "https://i.pinimg.com/564x/64/19/2d/64192dd734fd023754a0b5e0b305d6a4.jpg",
+      "Ingredientes": [
+        "2 colheres de sopa de óleo",
+        "300 g de linguiça calabresa em rodelas",
+        "1 cebola picada",
+        "2 dentes de alho picados",
+        "3 xícaras de arroz cozido",
+        "1/4 de xícara de cheiro-verde picado",
+        "200 g de queijo mussarela ralado"
+      ],
+      "tutorial": [
+        "Em uma panela, aqueça o óleo e frite a linguiça até dourar. Retire e reserve.",
+        "Na mesma panela, refogue a cebola e o alho até ficarem macios. Junte o arroz e o cheiro-verde e misture bem.",
+        "Transfira para um refratário untado e espalhe a linguiça por cima. Polvilhe o queijo ralado e leve ao forno preaquecido a 200°C por cerca de 15 minutos ou até derreter o queijo.",
+        "Sirva em seguida."
+      ],
+      "tag": "almoco",
+      "id": "7",
+      "tagId": 1
+    },
+    {
+      "nome": "Torta de liquidificador com presunto e queijo",
+      "imagem": "https://i.pinimg.com/564x/2a/14/5f/2a145f860d889b2ebec751701a69f8a0.jpg",
+      "Ingredientes": [
+        "3 ovos",
+        "1/4 de xícara de óleo",
+        "2 xícaras de leite",
+        "2 xícaras de farinha de trigo",
+        "1 colher de sopa de fermento em pó",
+        "Sal a gosto",
+        "200 g de presunto picado",
+        "200 g de queijo mussarela picado",
+        "Orégano a gosto"
+      ],
+      "tutorial": [
+        "No liquidificador, bata os ovos, o óleo, o leite, a farinha, o fermento e o sal até ficar homogêneo.",
+        "Despeje metade da massa em uma forma untada e enfarinhada. Espalhe o presunto e o queijo por cima. Cubra com o restante da massa.",
+        "Polvilhe orégano a gosto e leve ao forno preaquecido a 180°C por cerca de 35 minutos ou até dourar.",
+        "Retire do forno e deixe amornar antes de cortar."
+      ],
+      "tag": "almoco",
+      "id": "8",
+      "tagId": 1
+    },
+    {
+      "nome": "Pão de queijo fácil",
+      "imagem": "https://i.pinimg.com/564x/a2/36/9e/a2369efbcbd0a30f833390e5bbf82f69.jpg",
+      "Ingredientes": [
+        "3 xícaras de polvilho doce",
+        "3 xícaras de queijo meia cura ralado",
+        "3 ovos",
+        "1/2 xícara de óleo",
+        "1/2 xícara de leite",
+        "Sal a gosto"
+      ],
+      "tutorial": [
+        "Em uma tigela, misture o polvilho e o queijo. Reserve.",
+        "No liquidificador, bata os ovos, o óleo, o leite e o sal até ficar homogêneo.",
+        "Despeje a massa sobre a mistura de polvilho e queijo e mexa bem até incorporar.",
+        "Modele bolinhas com as mãos e coloque em uma assadeira untada, deixando espaço entre elas.",
+        "Leve ao forno preaquecido a 200°C por cerca de 25 minutos ou até dourar.",
+        "Retire do forno e sirva em seguida ou guarde em um recipiente fechado."
+      ],
+      "tag": "paes",
+      "id": "9",
+      "tagId": 2
+    },
+    {
+      "nome": "Panqueca de banana",
+      "imagem": "https://i.pinimg.com/564x/26/3f/74/263f7420108aa9ff542e8ab09999e6cd.jpg",
+      "Ingredientes": [
+        "1 banana madura amassada",
+        "2 ovos",
+        "1/4 de xícara de farinha de aveia",
+        "1 colher de chá de canela em pó",
+        "Óleo para untar"
+      ],
+      "tutorial": [
+        "Em uma tigela, misture a banana, os ovos, a farinha e a canela até formar uma massa homogênea.",
+        "Aqueça uma frigideira antiaderente untada com óleo em fogo médio. Coloque uma porção da massa e espalhe com uma colher. Deixe dourar por cerca de 2 minutos de cada lado.",
+        "Repita o processo com o restante da massa. Sirva as panquecas com mel, frutas ou o que preferir."
+      ],
+      "tag": "lanches",
+      "id": "10",
+      "tagId": 4
+    },
+    {
+      "nome": "Bolo de cenoura com cobertura de chocolate",
+      "imagem": "https://i.pinimg.com/564x/7b/fa/dd/7bfadd9a70223daa8bbd7ef71376b93f.jpg",
+      "Ingredientes": [
+        "3 cenouras médias picadas",
+        "4 ovos",
+        "1 xícara de óleo",
+        "2 xícaras de açúcar",
+        "3 xícaras de farinha de trigo",
+        "1 colher de sopa de fermento em pó",
+        "4 colheres de sopa de chocolate em pó",
+        "2 colheres de sopa de manteiga",
+        "1/2 xícara de leite"
+      ],
+      "tutorial": [
+        "No liquidificador, bata as cenouras, os ovos, o óleo e o açúcar até ficar homogêneo.",
+        "Transfira para uma tigela e adicione a farinha e o fermento. Misture bem com uma colher.",
+        "Despeje a massa em uma forma untada e enfarinhada.",
+        "Leve ao forno preaquecido a 180°C por cerca de 40 minutos ou até fazer o teste do palito.",
+        "Retire do forno e deixe esfriar sobre uma grade.",
+        "Em uma panela, misture o chocolate, a manteiga e o leite. Leve ao fogo baixo, mexendo sempre, até engrossar.",
+        "Espalhe a cobertura sobre o bolo e deixe endurecer."
+      ],
+      "tag": "bolos",
+      "id": "11",
+      "tagId": 3
+    }
+  ]
+}

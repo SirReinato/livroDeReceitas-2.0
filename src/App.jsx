@@ -8,7 +8,7 @@ import receitinhas from "./receitinhas.json";
 import { useEffect, useState } from "react";
 import Info from "./componente/Info";
 import Footer from "./componente/Footer";
-import { ReceitaProvider } from "./context/ReceitaContext";
+import { DetalheReceitaProvider } from "./context/DetalheReceitaContext";
 
 const BgGeralGradiente = styled.main`
   width: 100%;
@@ -24,31 +24,36 @@ const BgGeralGradiente = styled.main`
 function App() {
   const [asReceitas, setAsReceitas] = useState(receitinhas);
 
-  // filtro por tag
+  // filtro por tag e array
   const [tag, setTag] = useState(0);
+  const [filtro, setFiltro] = useState('')
 
   useEffect(() => {
     const receitasFiltradas = receitinhas.filter((receitas) => {
       const filtroPorTag = !tag || receitas.tagId === tag;
 
-      return filtroPorTag;
+      const filtrarPorTag = !filtro || receitas.nome.toLowerCase().includes(filtro.toLowerCase());
+
+      return filtroPorTag && filtrarPorTag;
     });
     setAsReceitas(receitasFiltradas);
-  }, [tag]);
+  }, [tag, filtro]);
+
 
   return (
-    <ReceitaProvider>
+    <DetalheReceitaProvider>
       <ResetCss />
       <Header />
       <BgGeralGradiente>
         <Receitas 
           receitinhas={asReceitas} 
           setTag={setTag} 
+          setFiltro={setFiltro}
         />
         <Info/>
         <Footer/>
       </BgGeralGradiente>
-    </ReceitaProvider>
+    </DetalheReceitaProvider>
   );
 }
 

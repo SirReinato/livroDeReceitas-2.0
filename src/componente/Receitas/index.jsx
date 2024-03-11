@@ -36,8 +36,10 @@ const GaleriaReceitas = styled.div`
     justify-content: start;
     flex-wrap: wrap;
     column-gap: 16px;
+    min-width: 900px;
     row-gap: 32px;
     @media (max-width: 693px){
+      min-width: 100%;
     justify-content: center;
   }
 `
@@ -80,7 +82,7 @@ const Titulos = styled.h2`
   }
 `
 
-const Receitas = ({ receitinhas = [], setTag }) => {
+const Receitas = ({ receitinhas = [], setTag, setFiltro }) => {
   return (
     <ConteinerReceitas>
       <ReceitasConteiner>
@@ -97,7 +99,7 @@ const Receitas = ({ receitinhas = [], setTag }) => {
 
       <PesquisaConteiner>
         <Titulos>Pesquisar</Titulos>
-        <Seach />
+        <Seach setFiltro={setFiltro}/>
         <Tags setTag={setTag} />
       </PesquisaConteiner>
       <OffCanvas />

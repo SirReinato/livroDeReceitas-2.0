@@ -25,10 +25,14 @@ const Input = styled.input`
   border: none;
 `;
 
-const Seach = () => {
+const Seach = ({setFiltro}) => {
   return (
     <InputConteiner>
-      <Input type="text" placeholder="Procurar..." />
+      <Input 
+        onChange={e => setFiltro(e.target.value)} 
+        type="text" 
+        placeholder="Procurar..." 
+      />
     </InputConteiner>
   );
 };

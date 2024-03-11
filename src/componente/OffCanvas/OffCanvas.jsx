@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import { ReceitaContext } from '../../context/ReceitaContext';
 import ListaItensReceitas from './ListaItensReceitas/ListaItensReceitas';
+import { DetalheReceitaContext } from '../../context/DetalheReceitaContext';
 
 const OffCanvas = ({ }) => {
-	const { receita } = useContext(ReceitaContext)
+	const { receita } = useContext(DetalheReceitaContext)
 
 	const ingredientes = receita.Ingredientes;
 	const tutorial = receita.tutorial;
