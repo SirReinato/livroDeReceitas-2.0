@@ -23,24 +23,24 @@ const BgGeralGradiente = styled.main`
 
 function App() {
 
-  const [api,setApi] = useState([]);
+  // const [api,setApi] = useState([]);
 
-  useEffect(() =>{
-    fetch('http://localhost:3000/asReceitas')
-    .then(dados => dados.json())
-    .then(dados => setApi(dados))
-  }, [])
+  //  useEffect(() =>{
+  //   fetch('http://localhost:3000/asReceitas')
+  //   .then(dados => dados.json())
+  //   .then(dados => setApi(dados))
+  // }, [])
 
 
 
-  const [asReceitas, setAsReceitas] = useState(api);
+  const [asReceitas, setAsReceitas] = useState(receitinhas);
 
   // filtro por tag e array
   const [tag, setTag] = useState(0);
   const [filtro, setFiltro] = useState('')
 
   useEffect(() => {
-    const receitasFiltradas = api.filter((receitas) => {
+    const receitasFiltradas = receitinhas.filter((receitas) => {
       const filtroPorTag = !tag || receitas.tagId === tag;
 
       const seachFiltro = !filtro || receitas.nome.toLowerCase().includes(filtro.toLowerCase());
