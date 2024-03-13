@@ -61,6 +61,13 @@ const RedesSociais = styled.figure`
   width: 282.608px;
   align-items: flex-start;
   gap: 20px;
+  @media (max-width: 640px){
+    .osLinks{
+      width: 50px;
+      height: 50px;
+      margin: 0 auto;
+    }
+  }
 `;
 
 const BySirReinato = styled.div`
@@ -92,9 +99,9 @@ const Footer = () => {
           <img src="fogão.png" alt="fogão logo do site" />
         </Logo>
         <RedesSociais>
-          <a href="https://github.com/SirReinato" target="_blank" rel="noopener noreferrer"> <img src="githib.png" alt="logo do github" /> </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="linkedin.png" alt="logo do linkedin" /> </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer"> <img src="twitter.png" alt="logo do twitter" /> </a>
+          <a className="osLinks" href="https://github.com/SirReinato" target="_blank" rel="noopener noreferrer"> <img src="githib.png" alt="logo do github" /> </a>
+          <a className="osLinks" href="https://www.linkedin.com/in/renato-fran%C3%A7a-0014b3195/" target="_blank" rel="noopener noreferrer"> <img src="linkedin.png" alt="logo do linkedin" /> </a>
+          <a className="osLinks" href="https://www.linkedin.com/in/renato-fran%C3%A7a-0014b3195/" target="_blank" rel="noopener noreferrer"> <img src="twitter.png" alt="logo do twitter" /> </a>
 
         </RedesSociais>
 
