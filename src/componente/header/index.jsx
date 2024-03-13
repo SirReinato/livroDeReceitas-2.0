@@ -30,6 +30,7 @@ const Imagem = styled.div`
 `;
 
 const Header = () => {
+  
   return (
     <Banner>
       <Imagem ></Imagem>

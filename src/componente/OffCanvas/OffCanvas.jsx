@@ -7,7 +7,6 @@ const OffCanvas = ({ }) => {
 
 	const ingredientes = receita.Ingredientes;
 	const tutorial = receita.tutorial;
-	console.log(receita);
 	return (
 		<div
 			className="offcanvas offcanvas-end bg-success"

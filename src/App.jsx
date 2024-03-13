@@ -22,38 +22,49 @@ const BgGeralGradiente = styled.main`
 `
 
 function App() {
-  const [asReceitas, setAsReceitas] = useState(receitinhas);
+
+  const [api,setApi] = useState([]);
+
+  useEffect(() =>{
+    fetch('http://localhost:3000/asReceitas')
+    .then(dados => dados.json())
+    .then(dados => setApi(dados))
+  }, [])
+
+
+
+  const [asReceitas, setAsReceitas] = useState(api);
 
   // filtro por tag e array
   const [tag, setTag] = useState(0);
   const [filtro, setFiltro] = useState('')
 
   useEffect(() => {
-    const receitasFiltradas = receitinhas.filter((receitas) => {
+    const receitasFiltradas = api.filter((receitas) => {
       const filtroPorTag = !tag || receitas.tagId === tag;
 
-      const filtrarPorTag = !filtro || receitas.nome.toLowerCase().includes(filtro.toLowerCase());
+      const seachFiltro = !filtro || receitas.nome.toLowerCase().includes(filtro.toLowerCase());
 
-      return filtroPorTag && filtrarPorTag;
+      return filtroPorTag && seachFiltro;
     });
     setAsReceitas(receitasFiltradas);
   }, [tag, filtro]);
 
 
   return (
-    <DetalheReceitaProvider>
-      <ResetCss />
-      <Header />
-      <BgGeralGradiente>
-        <Receitas 
-          receitinhas={asReceitas} 
-          setTag={setTag} 
-          setFiltro={setFiltro}
-        />
-        <Info/>
-        <Footer/>
-      </BgGeralGradiente>
-    </DetalheReceitaProvider>
+      <DetalheReceitaProvider>
+        <ResetCss />
+        <Header />
+        <BgGeralGradiente>
+          <Receitas
+            receitinhas={asReceitas}
+            setTag={setTag}
+            setFiltro={setFiltro}
+          />
+          <Info />
+          <Footer />
+        </BgGeralGradiente>
+      </DetalheReceitaProvider>
   );
 }
 
