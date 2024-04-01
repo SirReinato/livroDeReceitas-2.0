@@ -37,6 +37,7 @@ const FigcaptionStilizado = styled.figcaption`
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  cursor: pointer;
   justify-content: space-between;
   @media (max-width: 430px){
     width: 100%;
@@ -73,6 +74,7 @@ const FigcaptionStilizado = styled.figcaption`
 
 const AsReceitas = ({ receitinhas }) => {
   const { setReceita } = useContext(DetalheReceitaContext)
+  
   return (
     <Cards>
       <img src={receitinhas.imagem} alt={receitinhas.nome} />
